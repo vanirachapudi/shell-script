@@ -19,4 +19,16 @@ then
     exit 1
 else
     echo "installing my sql sucess"  
-fi      
+fi 
+
+yum install git -y
+
+if [ $? -ne 0 ]
+then
+    echo "ERROR:: install my git failed"
+    exit 1
+else
+    echo "installing my git sucess"  
+fi 
+
+
