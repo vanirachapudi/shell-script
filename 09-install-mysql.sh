@@ -7,6 +7,8 @@ then
     echo "ERROR:: please run this script with root access"
 else
     echo "your root user"
-fi        
+fi  
+
+
     
   
